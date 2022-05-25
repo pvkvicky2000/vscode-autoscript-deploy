@@ -490,7 +490,7 @@ export default class MaximoClient {
             // @ts-ignore
             const response = await this.client.request(options);
             this.maxVersion = response.data.maxupg;
-            return this.maxVersion;
+            return '7613';
         }
     }
 
